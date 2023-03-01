@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WinGGman_maui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                
+                Source="winggmanlarge.png"
+                HeightRequest="400"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="userName"
+                 Placeholder="Enter username"
+                 TextColor="Black"
+                 FontAttributes="Bold"
+                 BackgroundColor="AntiqueWhite"
+                 HorizontalOptions="Center"
+                 WidthRequest="340"/>
+            <Entry
+                x:Name="platform"
+                 Placeholder="Enter platform"
+                 TextColor="Black"
+                 FontAttributes="Bold"
+                 BackgroundColor="AntiqueWhite"
+                 HorizontalOptions="Center"
+                 WidthRequest="340"
+                 />
+            
+
+            <Button
+                Style="{DynamicResource buttonStyle}"
+                x:Name="RetrieveDataFromApi"
+                Text="View my stats"
+                FontAttributes="Bold"
+                Clicked="GetDataOnMainPageButtonClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

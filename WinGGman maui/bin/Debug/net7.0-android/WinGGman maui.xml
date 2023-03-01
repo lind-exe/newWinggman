@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WinGGman maui</name>
+    </assembly>
+    <members>
+        <member name="P:WinGGman_maui.ViewModels.PlayerStatsViewModel.AllData">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.PlayerStatsViewModel.allData"/>
+        </member>
+    </members>
+</doc>
