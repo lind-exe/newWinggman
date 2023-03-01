@@ -1,1 +1,1 @@
-C:\Users\jojje\Desktop\YH\ewr\WinGGman maui\WinGGman maui\WinGGman maui.csproj;x64
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\WinGGman maui.csproj;x64

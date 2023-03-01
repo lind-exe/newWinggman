@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8gA7kE3N/y8gia1DYLzz8tF7T1R7mGF7ELoSY48ESG0OkXYULqD+uGdaW6Q/oY1FWfVSMuOMIk3+bYy7W3lbuQ==",
+  "dgSpecHash": "afgZtK59vjtyjKjF3lZo/KtPjB/1L4aDOYGoAFLIqTRNk7U3HfZaUgn4C45PaEJM+bFbsrJGGWPy5UohM5uq3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\WinGGman maui.csproj",
+  "projectFilePath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\WinGGman maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jojje\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\jojje\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",

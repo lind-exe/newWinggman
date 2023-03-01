@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\WinGGman maui.csproj": {}
+    "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\WinGGman maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\WinGGman maui.csproj": {
+    "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\WinGGman maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\WinGGman maui.csproj",
+        "projectUniqueName": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\WinGGman maui.csproj",
         "projectName": "WinGGman maui",
-        "projectPath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\WinGGman maui.csproj",
+        "projectPath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\WinGGman maui.csproj",
         "packagesPath": "C:\\Users\\jojje\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\WinGGman maui\\WinGGman maui\\obj\\",
+        "outputPath": "C:\\Users\\jojje\\Desktop\\YH\\ewr\\newwinggman\\newWinggman\\WinGGman maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
