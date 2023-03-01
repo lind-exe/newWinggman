@@ -1,5 +1,7 @@
 
 
+using WinGGman_maui.ViewModels;
+
 namespace WinGGman_maui.Views;
 
 public partial class PlayerStatsPage : ContentPage
@@ -9,15 +11,20 @@ public partial class PlayerStatsPage : ContentPage
 	{
 		InitializeComponent();
         BindingContext = new ViewModels.PlayerStatsViewModel();
+
+        // detta ger mig två listor, en allData och AllData?
     }
 
     bool pageStarted = false;
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
         if (!pageStarted )
         {
-            Task t = (BindingContext as ViewModels.PlayerStatsViewModel).GetData("origin/thelindd/segments/legend"); // Metod i ViewModel
+            Task t = (BindingContext as PlayerStatsViewModel).GetData("origin/thelindd/segments/legend"); // Metod i ViewModel
+            await t;
+            
+
             pageStarted = true;
             
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -15,8 +16,7 @@ namespace WinGGman_maui.Models
         public string Platform { get; set; }
         public List<Data> Datas { get; set; }
 
-        public Data[] AllData { get; set; }
-
+        public Data[] data { get; set; }
     }
 
     public class Data

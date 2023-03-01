@@ -14,16 +14,26 @@ namespace WinGGman_maui.ViewModels
     internal partial class PlayerStatsViewModel : ObservableObject
     {
         [ObservableProperty]
-        ObservableCollection<PlayerStats> allData;
+        PlayerStats allData;
+
+        [ObservableProperty]            //dessa properties går att hitta i bindings men de innehåller ingen data. Skillnad på AllData.Datas.metadata && AllData.Datas.Metadata
+        Metadata metadata;
+
+        [ObservableProperty]
+        Attributes attributes;
+
+        [ObservableProperty]
+        Stats stats;
 
         public PlayerStatsViewModel()
         {
-            AllData = new ObservableCollection<PlayerStats>();
+            AllData = new PlayerStats();
         }
+
         public async Task GetData(string uri)
         {
-
-            
+            PlayerStats player = new PlayerStats();
+            AllData.Datas = new List<Data>();
             string apiKey = "1b0e4531-fafa-459f-95a1-b892bc373737";
 
             var client = new HttpClient();
@@ -34,7 +44,15 @@ namespace WinGGman_maui.ViewModels
             if (response.IsSuccessStatusCode)
             {
                 var responseString = await response.Content.ReadAsStringAsync();
-                AllData.Add(JsonSerializer.Deserialize<PlayerStats>(responseString));
+                player = (JsonSerializer.Deserialize<PlayerStats>(responseString));
+                
+                //foreach (var item in player.data)
+                //{
+                //    player.Datas.Add(item);
+                //}
+
+                player.data.ToList().ForEach(x => AllData.Datas.Add(x));
+
                 
                 //Player.Add(newData);
                 //Thread.Sleep(1000);
