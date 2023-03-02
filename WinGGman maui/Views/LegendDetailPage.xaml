@@ -10,6 +10,9 @@
 
 
 
-        <Label Text="Hej"/>
+        <Label Text="{Binding Metadata.name}"
+               />
+        <Image Source="{Binding Metadata.portraitImageUrl}"
+               HeightRequest="100"/>
     </VerticalStackLayout>
 </ContentPage>
