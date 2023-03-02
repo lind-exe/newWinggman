@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace WinGGman_maui.Models
@@ -22,10 +23,13 @@ namespace WinGGman_maui.Models
     public class Data
     {
         public string type { get; set; }
-        public Attributes attributes { get; set; }
-        public Metadata metadata { get; set; }
+        [JsonPropertyName("attributes")]
+        public Attributes Attributes { get; set; }
+        [JsonPropertyName("metadata")]
+        public Metadata Metadata { get; set; }
         public DateTime expiryDate { get; set; }
-        public Stats stats { get; set; }
+        [JsonPropertyName("stats")]
+        public Stats Stats { get; set; }
     }
 
 

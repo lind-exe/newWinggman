@@ -22,7 +22,7 @@ public partial class PlayerStatsPage : ContentPage
         if (!pageStarted )
         {
             Task t = (BindingContext as PlayerStatsViewModel).GetData("origin/thelindd/segments/legend"); // Metod i ViewModel
-            await t;
+            
             
 
             pageStarted = true;
@@ -32,7 +32,7 @@ public partial class PlayerStatsPage : ContentPage
 
     private async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
-        var legend = ((ListView)sender).SelectedItem as Models.PlayerStats;
+        var legend = ((ListView)sender).SelectedItem as Models.Data;
         if (legend != null)
         {
             var page = new LegendDetailPage();

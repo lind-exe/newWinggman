@@ -45,17 +45,10 @@ namespace WinGGman_maui.ViewModels
             {
                 var responseString = await response.Content.ReadAsStringAsync();
                 player = (JsonSerializer.Deserialize<PlayerStats>(responseString));
-                
-                //foreach (var item in player.data)
-                //{
-                //    player.Datas.Add(item);
-                //}
+               
 
                 player.data.ToList().ForEach(x => AllData.Datas.Add(x));
-
                 
-                //Player.Add(newData);
-                //Thread.Sleep(1000);
             }
         }
     }

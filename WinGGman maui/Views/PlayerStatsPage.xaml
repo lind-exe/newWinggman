@@ -5,28 +5,14 @@
              xmlns:viewmodel="clr-namespace:WinGGman_maui.ViewModels"
              x:DataType="viewmodel:PlayerStatsViewModel"
              Title="PlayerStatsPage">
-    <VerticalStackLayout
-        
+    <HorizontalStackLayout
         Spacing="25"
         Padding="30,0"
-        VerticalOptions="Center">
-            <!--Vid varje restart måste jag klippa ut och klistra in detta stycke med <images> för att de ska visas
-            det var därför vi inte såg dom när jag startade första gången-->
-        <Image  Source="{Binding AllData.Datas[0].metadata.portraitImageUrl}"   
-                HeightRequest="100"/>
-        <Image  Source="{Binding AllData.Datas[1].metadata.portraitImageUrl}"
-                HeightRequest="100"/>
-        <Image  Source="{Binding AllData.Datas[2].metadata.portraitImageUrl}"
-                HeightRequest="100"/>
-        <Image  Source="{Binding AllData.Datas[3].metadata.portraitImageUrl}"
-                HeightRequest="100"/>
-        <Image  Source="{Binding AllData.Datas[4].metadata.portraitImageUrl}"
-                HeightRequest="100"/>
-        <Image  Source="{Binding AllData.Datas[5].metadata.portraitImageUrl}"
-                HeightRequest="100"/>
-        
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+
         <ListView
-            ItemsSource="{Binding Metadata.portraitImageUrl}"
+            ItemsSource="{Binding AllData.Datas}"
             ItemSelected="OnListViewItemSelected">
             
             <ListView.ItemTemplate>
@@ -34,20 +20,22 @@
                     <ViewCell>
                         <Grid Padding="10"
                               RowDefinitions="Auto, *"
-                              ColumnDefinitions="200, 200, 100"
+                              ColumnDefinitions="100, 250, 250"
                               ColumnSpacing="20">
 
-                            <Label Text="{Binding Stats.damage.value}"
-                                   Grid.Column="0"
-                                   Grid.Row="1"/>
-                            <Image Grid.RowSpan="2"
-                                    HeightRequest="200"
-                                    Aspect="Fill"
-                                    Source="{Binding AllData.Datas}"/>
+                            
+                            <Image 
+                                    HeightRequest="100"
+                                    Grid.Column="0"
+                                    Source="{Binding Metadata.portraitImageUrl}"/>
+                            <Label Text="{Binding Metadata.name}"
+                                   FontSize="22"
+                                   Grid.Column="1"/>
+                            
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </VerticalStackLayout>
+    </HorizontalStackLayout>
 </ContentPage>
