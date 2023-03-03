@@ -29,6 +29,7 @@
                                     Grid.Column="0"
                                     Source="{Binding Metadata.portraitImageUrl}"/>
                             <Label Text="{Binding Metadata.name}"
+                                   FontFamily="Expressway"
                                    FontSize="22"
                                    Grid.Column="1"/>
                             

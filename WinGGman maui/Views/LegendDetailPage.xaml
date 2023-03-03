@@ -7,12 +7,59 @@
              Title="LegendDetailPage">
     <VerticalStackLayout>
 
-
-
-
-        <Label Text="{Binding Metadata.name}"
+        <Image Source="{Binding Metadata.bgImageUrl}"
                />
-        <Image Source="{Binding Metadata.portraitImageUrl}"
-               HeightRequest="100"/>
+        <Label Text="{Binding Metadata.name}"
+               HorizontalOptions="Center"
+               FontFamily="Expressway"
+               FontSize="Header"
+               />
+
+        <Grid HorizontalOptions="Center"
+              RowDefinitions="auto, auto, auto"
+              ColumnDefinitions="auto, auto"
+              Padding="20"
+              ColumnSpacing="50">
+
+            <Label Grid.Row="0"
+               Text="{Binding Stats.matchesPlayed.displayName}"
+                   
+               TextColor="{Binding Metadata.LegendColor}"
+               FontSize="25"
+               FontFamily="Expressway"
+               HorizontalOptions="Center"
+               />
+            <Label Grid.Row="0" Grid.Column="1"
+               Text="{Binding Stats.matchesPlayed.value}"
+                   FontFamily="Expressway"
+               FontSize="25"
+               HorizontalOptions="Center"
+               />
+            <Label Grid.Row="1"
+               Text="{Binding Stats.kills.displayName}"
+                   FontFamily="Expressway"
+               FontSize="25"
+               HorizontalOptions="Center"
+               />
+            <Label Grid.Row="1" Grid.Column="1"
+                   FontFamily="Expressway"
+               Text="{Binding Stats.kills.value}"
+               FontSize="25"
+               HorizontalOptions="Center"
+               />
+            <Label Grid.Row="2"
+                   FontFamily="Expressway"
+               Text="{Binding Stats.damage.displayName}"
+               FontSize="25"
+               HorizontalOptions="Center"
+               />
+            <Label Grid.Row="2" Grid.Column="1"
+                   FontFamily="Expressway"
+               Text="{Binding Stats.damage.value}"
+               FontSize="25"
+               HorizontalOptions="Center"
+               />
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

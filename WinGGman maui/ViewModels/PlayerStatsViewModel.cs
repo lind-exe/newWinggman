@@ -33,6 +33,7 @@ namespace WinGGman_maui.ViewModels
         public async Task GetData(string uri)
         {
             PlayerStats player = new PlayerStats();
+            
             AllData.Datas = new List<Data>();
             string apiKey = "1b0e4531-fafa-459f-95a1-b892bc373737";
 
@@ -45,10 +46,10 @@ namespace WinGGman_maui.ViewModels
             {
                 var responseString = await response.Content.ReadAsStringAsync();
                 player = (JsonSerializer.Deserialize<PlayerStats>(responseString));
-               
 
+                await Task.Delay(1000);
                 player.data.ToList().ForEach(x => AllData.Datas.Add(x));
-                
+                await Task.Delay(5000);
             }
         }
     }

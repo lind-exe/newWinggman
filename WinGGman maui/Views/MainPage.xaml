@@ -20,6 +20,7 @@
                  Placeholder="Enter username"
                  TextColor="Black"
                  FontAttributes="Bold"
+                FontFamily="Expressway"
                  BackgroundColor="AntiqueWhite"
                  HorizontalOptions="Center"
                  WidthRequest="340"/>
@@ -27,6 +28,7 @@
                 x:Name="platform"
                  Placeholder="Enter platform"
                  TextColor="Black"
+                FontFamily="Expressway"
                  FontAttributes="Bold"
                  BackgroundColor="AntiqueWhite"
                  HorizontalOptions="Center"
@@ -38,6 +40,7 @@
                 Style="{DynamicResource buttonStyle}"
                 x:Name="RetrieveDataFromApi"
                 Text="View my stats"
+                FontFamily="Expressway"
                 FontAttributes="Bold"
                 Clicked="GetDataOnMainPageButtonClicked"
                 HorizontalOptions="Center" />
