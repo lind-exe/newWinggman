@@ -13,7 +13,7 @@ namespace WinGGman_maui.ViewModels
         [ObservableProperty]
         PlayerStats allData;
 
-        [ObservableProperty]            //dessa properties går att hitta i bindings men de innehåller ingen data. Skillnad på AllData.Datas.metadata && AllData.Datas.Metadata
+        [ObservableProperty]            
         Metadata metadata;
 
         [ObservableProperty]

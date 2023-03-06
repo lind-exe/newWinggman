@@ -17,123 +17,98 @@
                FontFamily="Expressway"
                FontSize="Header"
                />
-        <Grid HorizontalOptions="Center"
-              RowDefinitions="400"
-              ColumnDefinitions="350, 350, 350"
-              Padding="50"
-              ColumnSpacing="100">
-            
-            <Frame BorderColor="Gray"
-               CornerRadius="5"
-               Padding="1"
-               
-               Grid.Column="0">
+        <Grid  HorizontalOptions="Center"
+               RowDefinitions="400"
+               ColumnDefinitions="350, 350, 350"
+               Padding="50"
+               ColumnSpacing="100">
+
+            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="0" VerticalOptions="Fill">
                 <StackLayout>
-                     <Label Text="{Binding Stats.matchesPlayed.displayName}"
+                    <Label Text="{Binding Stats.matchesPlayed.displayName}"
                             HorizontalOptions="Center"
-                       FontSize="32"
-                       FontAttributes="Bold" />
-                        <BoxView Color="Red"
-                         HeightRequest="5"
-                          />
-                        <Label Text="{Binding Stats.matchesPlayed.value}"
-                               FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
+                            FontSize="32"
+                            FontAttributes="Bold" />
+                    <BoxView Color="DarkRed" HeightRequest="4" MaximumWidthRequest="320"/>
+                    <Label x:Name="matchesPlayedValue"
+                            Text="{Binding Stats.matchesPlayed.value}"
+                            FontSize="40"
+                            Padding="10"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
+                    <Label Text="{Binding Stats.matchesPlayed.percentile, StringFormat='Matches played percentile: {0}%'}"
+                            FontSize="20"
+                            Padding="10"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
-        
-            <Frame BorderColor="Gray"
-               CornerRadius="5"
-               Padding="1"
-               
-                Grid.Column="1">
-            <StackLayout>
-                <Label Text="{Binding Stats.kills.displayName}"
-                       HorizontalOptions="Center"
-                       FontSize="32"
-                       FontAttributes="Bold" />
-                <BoxView Color="Red"
-                         HeightRequest="5"
-                         HorizontalOptions="Fill"/>
-                <Label Text="{Binding Stats.kills.value}"
-                       FontSize="25"
+
+            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="1" VerticalOptions="Fill">
+                <StackLayout>
+                    <Label Text="{Binding Stats.kills.displayName}"
+                        HorizontalOptions="Center"
+                        FontSize="32"
+                        FontAttributes="Bold" />
+                    <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
+                    <Label x:Name="killsValue"
+                           Text="{Binding Stats.kills.value}"
+                           FontSize="40"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-            </StackLayout>
-                
-        </Frame>
-            <Frame BorderColor="Gray"
-               CornerRadius="5"
-               Padding="1"
-               
-               Grid.Column="2">
-                <StackLayout>
-                    <Label Text="{Binding Stats.damage.displayName}"
-                           HorizontalOptions="Center"
-                       FontSize="32"
-                       FontAttributes="Bold"/>
-                    <BoxView Color="Red"
-                         HeightRequest="5"
-                          />
-                    <Label Text="{Binding Stats.damage.value}"
+                    <Label x:Name="KDR" 
+                           Text="{Binding Stats.killsPerMatch.value, StringFormat='KDR: {0}'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label 
+                           Text="{Binding Stats.kills.percentile, StringFormat='Kills percentile : {0}%'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label 
+                           Text="{Binding Stats.killsPerMatch.percentile, StringFormat='KDR percentile: {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
                 </StackLayout>
-                
+
+            </Frame>
+
+            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="2" VerticalOptions="Fill">
+                <StackLayout>
+                    <Label Text="{Binding Stats.damage.displayName}"
+                           HorizontalOptions="Center"
+                           FontSize="32"
+                           FontAttributes="Bold"/>
+                    <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
+                    <Label Text="{Binding Stats.damage.value}"
+                           BackgroundColor="{Binding Metadata.legendColor}"
+                           FontSize="40"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
+                           FontSize="20"
+                           Padding="10"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </StackLayout>
             </Frame>
         </Grid>
-        
-        <!--<Grid HorizontalOptions="Center"
-              RowDefinitions="auto, auto, auto"
-              ColumnDefinitions="auto, auto"
-              Padding="20"
-              ColumnSpacing="50">
-
-            <Label Grid.Row="0"
-               Text="{Binding Stats.matchesPlayed.displayName}"
-               FontSize="25"
-               FontFamily="Expressway"
-               HorizontalOptions="Center"
-               />
-
-
-            <Label Grid.Row="0" Grid.Column="1"
-               Text="{Binding Stats.matchesPlayed.value}"
-               FontFamily="Expressway"
-               FontSize="25"
-               HorizontalOptions="Center"
-               />
-            <Label Grid.Row="1"
-               
-               Text="{Binding Stats.kills.displayName}"
-               FontFamily="Expressway"
-               FontSize="25"
-               HorizontalOptions="Center"
-               />
-            <Label Grid.Row="1" Grid.Column="1"
-                   FontFamily="Expressway"
-               Text="{Binding Stats.kills.value}"
-               FontSize="25"
-               HorizontalOptions="Center"
-               />
-            <Label Grid.Row="2"
-                   FontFamily="Expressway"
-               Text="{Binding Stats.damage.displayName}"
-               FontSize="25"
-               HorizontalOptions="Center"
-               />
-            <Label Grid.Row="2" Grid.Column="1"
-                   FontFamily="Expressway"
-               Text="{Binding Stats.damage.value}"
-               FontSize="25"
-               HorizontalOptions="Center"
-               />
-
-        </Grid>-->
     </VerticalStackLayout>
 </ContentPage>
