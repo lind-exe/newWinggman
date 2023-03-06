@@ -1,5 +1,6 @@
 
 
+using WinGGman_maui.Models;
 using WinGGman_maui.ViewModels;
 
 namespace WinGGman_maui.Views;
@@ -21,7 +22,7 @@ public partial class PlayerStatsPage : ContentPage
         base.OnAppearing();
         if (!pageStarted )
         {
-            Task t = (BindingContext as PlayerStatsViewModel).GetData("origin/thelindd/segments/legend"); // Metod i ViewModel
+            Task t = (BindingContext as PlayerStatsViewModel).GetData($"{SessionData.Platform}/{SessionData.UserName}/segments/legend"); // Metod i ViewModel
             
             
 
