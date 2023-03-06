@@ -8,8 +8,6 @@ namespace WinGGman_maui.Models
 {
     internal static class SessionData
     {
-        public static List<PlayerStats> AllData { get; set; }
-
         public static string UserName { get; set; }
         public static string Platform { get; set; }
     }

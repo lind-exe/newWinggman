@@ -21,6 +21,9 @@ namespace WinGGman_maui.ViewModels
 
         [ObservableProperty]
         Stats stats;
+        
+        [ObservableProperty]
+        PlayerStats player;
 
 
         public LegedDetailPageViewModel()

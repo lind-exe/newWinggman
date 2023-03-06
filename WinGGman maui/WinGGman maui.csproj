@@ -48,6 +48,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bgimage.jpg" />
 	  <None Remove="Resources\Images\WinGGmanLargeIcon.png" />
 	</ItemGroup>
 

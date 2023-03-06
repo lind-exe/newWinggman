@@ -13,11 +13,8 @@ namespace WinGGman_maui.Models
 {
     internal class PlayerStats
     {
-        public string UserName { get; set; }
-        public string Platform { get; set; }
-        public List<Data> Datas { get; set; }
-
-        public Data[] data { get; set; }
+        [JsonPropertyName("data")]
+        public Data[] Data { get; set; }
     }
 
     public class Data

@@ -2,113 +2,118 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.LegendDetailPage"
-             xmlns:viewmodel="clr-namespace:WinGGman_maui.ViewModels"
-             x:DataType="viewmodel:PlayerStatsViewModel"
+             
              Title="LegendDetailPage">
-    <VerticalStackLayout>
 
-        <Image Source="{Binding Metadata.bgImageUrl}"
+    <Grid>
+
+        <Image Aspect="AspectFill" Source="bgimage.jpg"/>
+
+        <VerticalStackLayout>
+
+            <Image Source="{Binding Metadata.bgImageUrl}"
                HeightRequest="400"
                />
-        <Label Text="{Binding Metadata.name}"
+            <Label Text="{Binding Metadata.name}"
                TextColor="{Binding Metadata.legendColor}"
                HorizontalTextAlignment="Start"
                HorizontalOptions="Center"
-               FontFamily="Expressway"
+               FontFamily="ApexBold"
                FontSize="Header"
                />
-        <Grid  HorizontalOptions="Center"
+            <Grid  HorizontalOptions="Center"
                RowDefinitions="400"
                ColumnDefinitions="350, 350, 350"
                Padding="50"
                ColumnSpacing="100">
 
-            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="0" VerticalOptions="Fill">
-                <StackLayout>
-                    <Label Text="{Binding Stats.matchesPlayed.displayName}"
+                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="0" VerticalOptions="Fill">
+                    <StackLayout>
+                        <Label Text="{Binding Stats.matchesPlayed.displayName}"
                             HorizontalOptions="Center"
                             FontSize="32"
                             FontAttributes="Bold" />
-                    <BoxView Color="DarkRed" HeightRequest="4" MaximumWidthRequest="320"/>
-                    <Label x:Name="matchesPlayedValue"
+                        <BoxView Color="DarkRed" HeightRequest="4" MaximumWidthRequest="320"/>
+                        <Label x:Name="matchesPlayedValue"
                             Text="{Binding Stats.matchesPlayed.value}"
                             FontSize="40"
                             Padding="10"
                             FontAttributes="Bold"
                             HorizontalOptions="Center"/>
-                    <Label Text="{Binding Stats.matchesPlayed.percentile, StringFormat='Matches played percentile: {0}%'}"
+                        <Label Text="{Binding Stats.matchesPlayed.percentile, StringFormat='Matches played percentile: {0}%'}"
                             FontSize="20"
                             Padding="10"
                             FontAttributes="Bold"
                             HorizontalOptions="Center"/>
-                </StackLayout>
-            </Frame>
+                    </StackLayout>
+                </Frame>
 
-            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="1" VerticalOptions="Fill">
-                <StackLayout>
-                    <Label Text="{Binding Stats.kills.displayName}"
+                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="1" VerticalOptions="Fill">
+                    <StackLayout>
+                        <Label Text="{Binding Stats.kills.displayName}"
                         HorizontalOptions="Center"
                         FontSize="32"
                         FontAttributes="Bold" />
-                    <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
-                    <Label x:Name="killsValue"
+                        <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
+                        <Label x:Name="killsValue"
                            Text="{Binding Stats.kills.value}"
                            FontSize="40"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label x:Name="KDR" 
+                        <Label x:Name="KDR" 
                            Text="{Binding Stats.killsPerMatch.value, StringFormat='KDR: {0}'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label 
+                        <Label 
                            Text="{Binding Stats.kills.percentile, StringFormat='Kills percentile : {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label 
+                        <Label 
                            Text="{Binding Stats.killsPerMatch.percentile, StringFormat='KDR percentile: {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                </StackLayout>
+                    </StackLayout>
 
-            </Frame>
+                </Frame>
 
-            <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="2" VerticalOptions="Fill">
-                <StackLayout>
-                    <Label Text="{Binding Stats.damage.displayName}"
+                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="2" VerticalOptions="Fill">
+                    <StackLayout>
+                        <Label Text="{Binding Stats.damage.displayName}"
                            HorizontalOptions="Center"
                            FontSize="32"
                            FontAttributes="Bold"/>
-                    <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
-                    <Label Text="{Binding Stats.damage.value}"
+                        <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
+                        <Label Text="{Binding Stats.damage.value}"
                            BackgroundColor="{Binding Metadata.legendColor}"
                            FontSize="40"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
+                        <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
+                        <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
+                        <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
                            FontSize="20"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                </StackLayout>
-            </Frame>
-        </Grid>
-    </VerticalStackLayout>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>

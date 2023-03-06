@@ -14,6 +14,8 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 				fonts.AddFont("expressway rg.otf", "Expressway");
+				fonts.AddFont("apexlight.otf", "ApexLight");
+				fonts.AddFont("apexbold.otf", "ApexBold");
 			});
 
 #if DEBUG

@@ -2,41 +2,42 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.PlayerStatsPage"
-             xmlns:viewmodel="clr-namespace:WinGGman_maui.ViewModels"
-             x:DataType="viewmodel:PlayerStatsViewModel"
+             
              Title="PlayerStatsPage">
-    <HorizontalStackLayout
-        Spacing="25"
-        Padding="30,0"
-        VerticalOptions="Center"
-        HorizontalOptions="Center">
 
-        <ListView
-            ItemsSource="{Binding AllData.Datas}"
-            ItemSelected="OnListViewItemSelected">
-            
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="10"
+    <Grid>
+
+        <Image Aspect="AspectFill" Source="bgimage.jpg"/>
+
+        <ScrollView>
+            <VerticalStackLayout>
+                <ListView
+                ItemsSource="{Binding Player.Data}"
+                ItemSelected="OnListViewItemSelected">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="10"
                               RowDefinitions="Auto, *"
-                              ColumnDefinitions="100, 250, 250"
+                              ColumnDefinitions="200, 250, 250"
                               ColumnSpacing="20">
 
-                            
-                            <Image 
-                                    HeightRequest="100"
-                                    Grid.Column="0"
-                                    Source="{Binding Metadata.portraitImageUrl}"/>
-                            <Label Text="{Binding Metadata.name}"
-                                   FontFamily="Expressway"
-                                   FontSize="22"
+
+                                    <Image HeightRequest="200"
+                                   Grid.Column="0"
+                                   Source="{Binding Metadata.imageUrl}"/>
+                                    <Label Text="{Binding Metadata.name}"
+                                   FontFamily="ApexBold"
+                                   FontSize="45"
                                    Grid.Column="1"/>
-                            
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </HorizontalStackLayout>
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>
