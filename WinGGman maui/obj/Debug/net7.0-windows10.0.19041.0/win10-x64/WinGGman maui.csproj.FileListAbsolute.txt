@@ -570,6 +570,8 @@ C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\ne
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexbold.otf
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexlight.otf
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\expressway rg.otf
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
@@ -619,11 +621,15 @@ C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\ne
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bgimage.scale-100.jpg
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leftbanner.scale-100.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\middlebanner.scale-100.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rightbanner.scale-100.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\winggmanlarge.scale-100.png
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\WinGGman maui.AssemblyInfoInputs.cache
@@ -652,8 +658,5 @@ C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\ne
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bgimage.scale-100.jpg
-C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-ExtraLight.otf
-C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-Medium.otf
-C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexbold.otf
-C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexlight.otf
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\catalyst.scale-100.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\vantage.scale-100.png

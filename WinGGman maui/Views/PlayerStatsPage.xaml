@@ -2,42 +2,71 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.PlayerStatsPage"
-             
+             BackgroundImageSource="bgimage.jpg"
              Title="PlayerStatsPage">
+    <FlexLayout Direction="Column">
 
-    <Grid>
-
-        <Image Aspect="AspectFill" Source="bgimage.jpg"/>
-
-        <ScrollView>
-            <VerticalStackLayout>
-                <ListView
-                ItemsSource="{Binding Player.Data}"
-                ItemSelected="OnListViewItemSelected">
-
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <Grid Padding="10"
-                              RowDefinitions="Auto, *"
-                              ColumnDefinitions="200, 250, 250"
-                              ColumnSpacing="20">
+        <FlexLayout FlexLayout.Grow="1" Direction="Row">
+            <VerticalStackLayout BackgroundColor="Black" Opacity="0.3"  FlexLayout.Basis="100">
 
 
-                                    <Image HeightRequest="200"
-                                   Grid.Column="0"
-                                   Source="{Binding Metadata.imageUrl}"/>
-                                    <Label Text="{Binding Metadata.name}"
-                                   FontFamily="ApexBold"
-                                   FontSize="45"
-                                   Grid.Column="1"/>
-
-                                </Grid>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
             </VerticalStackLayout>
-        </ScrollView>
-    </Grid>
+                <ScrollView>
+            <VerticalStackLayout BackgroundColor="Transparent" FlexLayout.Grow="1">
+                    <ListView
+                        ItemsSource="{Binding Player.Data}"
+                        ItemSelected="OnListViewItemSelected">
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="10"
+                                          RowDefinitions="Auto, *"
+                                          ColumnDefinitions="200, 250, 250"
+                                          ColumnSpacing="20">
+
+                                        <Border StrokeThickness="4"
+                                                StrokeShape="Rectangle "
+                                                HorizontalOptions="Center"
+                                                >
+                                            <Border.Stroke>
+                                                  <LinearGradientBrush EndPoint="0,1">
+                                                      <GradientStop Color="AntiqueWhite"
+                                                                    Offset="0.1" />
+                                                      <GradientStop Color="DarkRed"
+                                                                    Offset="1.0" />
+                                                  </LinearGradientBrush>
+                                            </Border.Stroke>
+                                            <Image HeightRequest="200"
+                                               Grid.Column="0"
+                                               Source="{Binding Metadata.portraitImageUrl}"/>
+                                        </Border>
+                                          
+                                        
+                                        <Label Text="{Binding Metadata.name}"
+                                               TextColor="{Binding Metadata.LegendColor2}"
+                                               FontFamily="ApexBold"
+                                               FontSize="45"
+                                               Grid.Column="1"/>    
+
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+            </VerticalStackLayout>
+                </ScrollView>
+            <VerticalStackLayout BackgroundColor="Black" Opacity="0.3" FlexLayout.Basis="100">
+
+
+            </VerticalStackLayout>
+
+
+
+        </FlexLayout>
+
+
+    </FlexLayout>
+
 </ContentPage>

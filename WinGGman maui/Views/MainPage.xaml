@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WinGGman_maui.MainPage">
-    <Grid>
+             x:Class="WinGGman_maui.MainPage"
+             BackgroundImageSource="bgimage.jpg">
 
-        <Image Aspect="AspectFill" Source="bgimage.jpg"/>
-
-        <VerticalStackLayout
+    <VerticalStackLayout
         
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-            <Image
+
+
+        <Image
                 
                 Source="winggmanlarge.png"
                 HeightRequest="400"
                 HorizontalOptions="Center" />
-        
+
         <Entry
                 x:Name="userName"
                  Placeholder="Enter username"
@@ -39,7 +39,7 @@
                  Text="origin"
                  />
 
-        
+
         <Button
                 Style="{DynamicResource buttonStyle}"
                 x:Name="RetrieveDataFromApi"
@@ -50,5 +50,6 @@
                 HorizontalOptions="Center" />
 
     </VerticalStackLayout>
-    </Grid>
 </ContentPage>
+
+       

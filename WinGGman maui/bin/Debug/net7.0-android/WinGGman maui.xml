@@ -4,8 +4,26 @@
         <name>WinGGman maui</name>
     </assembly>
     <members>
-        <member name="P:WinGGman_maui.ViewModels.PlayerStatsViewModel.AllData">
-            <inheritdoc cref="F:WinGGman_maui.ViewModels.PlayerStatsViewModel.allData"/>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.Metadata">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.metadata"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.Attributes">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.attributes"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.Stats">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.stats"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.Player">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.player"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.LegendColor">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.legendColor"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.CurrentUser">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.currentUser"/>
+        </member>
+        <member name="P:WinGGman_maui.ViewModels.PlayerStatsPageViewModel.Player">
+            <inheritdoc cref="F:WinGGman_maui.ViewModels.PlayerStatsPageViewModel.player"/>
         </member>
     </members>
 </doc>

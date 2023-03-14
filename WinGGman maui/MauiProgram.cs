@@ -18,10 +18,6 @@ public static class MauiProgram
 				fonts.AddFont("apexbold.otf", "ApexBold");
 			});
 
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
-
 		return builder.Build();
 	}
 }

@@ -4,7 +4,7 @@ AreAnyAssembliesTrimmed=false
 				AOTCompiler=
 				AOTOutputDirectory=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\nativelibraries/aot-output/
 				AppBundleManifestPath=bin\Debug\net7.0-maccatalyst\maccatalyst-x64\WinGGman maui.app\Contents/Info.plist
-				CacheDirectory=C:\Users\jojje\Desktop\YH\ewr\WinGGman maui\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
+				CacheDirectory=C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
 				
 				Debug=true
 				DeploymentTarget=
@@ -183,7 +183,7 @@ FrameworkAssembly=System.Private.CoreLib
 				Interpreter=all
 				IntermediateLinkDir=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linked\
 				InvariantGlobalization=false
-				ItemsDirectory=C:\Users\jojje\Desktop\YH\ewr\WinGGman maui\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
+				ItemsDirectory=C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=
 				LibMonoLinkMode=dylib

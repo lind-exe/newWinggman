@@ -49,6 +49,11 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\bgimage.jpg" />
+	  <None Remove="Resources\Images\catalyst.png" />
+	  <None Remove="Resources\Images\leftbanner.png" />
+	  <None Remove="Resources\Images\middlebanner.png" />
+	  <None Remove="Resources\Images\rightbanner.png" />
+	  <None Remove="Resources\Images\vantage.png" />
 	  <None Remove="Resources\Images\WinGGmanLargeIcon.png" />
 	</ItemGroup>
 

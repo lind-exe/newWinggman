@@ -29,7 +29,23 @@ namespace WinGGman_maui.ViewModels
             {
                 var responseString = await response.Content.ReadAsStringAsync();
                 Player = (JsonSerializer.Deserialize<PlayerStats>(responseString));
+                for (int i = 0; i < Player.Data.Count(); i++)
+                {
+                    // first legend in the list gets white color? 
+                    Player.Data[i].Metadata.LegendColor2 = Color.FromArgb(Player.Data[i].Metadata.LegendColor);
+
+                    if (Player.Data[i].Metadata.name == "Catalyst")
+                    {
+                        Player.Data[i].Metadata.tallImageUrl = "catalyst.png";
+                    }
+                    if (Player.Data[i].Metadata.name == "Vantage")
+                    {
+                        Player.Data[i].Metadata.tallImageUrl = "vantage.png";
+                    }
+
+                }
             }
+
         }
     }
 }

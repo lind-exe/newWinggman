@@ -18,7 +18,7 @@ public partial class PlayerStatsPage : ContentPage
         base.OnAppearing();
         if (!pageStarted )
         {
-            Task t = (BindingContext as PlayerStatsPageViewModel).GetData($"{SessionData.Platform}/{SessionData.UserName}/segments/legend"); // Metod i ViewModel
+            Task t = (BindingContext as PlayerStatsPageViewModel).GetData($"{CurrentUser.Platform}/{CurrentUser.UserName}/segments/legend"); // Metod i ViewModel
             pageStarted = true;
             
         }

@@ -10,8 +10,6 @@ namespace WinGGman_maui.ViewModels
 {
     internal partial class LegedDetailPageViewModel : ObservableObject
     {
-        [ObservableProperty]
-        PlayerStats allData;
 
         [ObservableProperty]            
         Metadata metadata;
@@ -25,10 +23,17 @@ namespace WinGGman_maui.ViewModels
         [ObservableProperty]
         PlayerStats player;
 
+        [ObservableProperty]
+        string legendColor;
+
+        
+
+
 
         public LegedDetailPageViewModel()
         {            
-                     
+              
         }
+        
     }
 }

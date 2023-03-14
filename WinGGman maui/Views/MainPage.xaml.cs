@@ -1,4 +1,5 @@
 ﻿using WinGGman_maui.Models;
+using WinGGman_maui.ViewModels;
 
 namespace WinGGman_maui;
 
@@ -12,13 +13,13 @@ public partial class MainPage : ContentPage
     public async void GetDataOnMainPageButtonClicked(object sender, EventArgs e)
     {
 
-		SessionData.UserName = userName.Text;
-		SessionData.Platform = platform.Text;
+		CurrentUser.UserName = userName.Text;
+		CurrentUser.Platform = platform.Text;
+		//SessionData.Player = PlayerStatsPageViewModel.GetData($"{SessionData.Platform}/{SessionData.UserName}/segments/legend");
 
-		
 
 
-		await Navigation.PushAsync(new Views.PlayerStatsPage());
+        await Navigation.PushAsync(new Views.PlayerStatsPage());
     }
 }
 

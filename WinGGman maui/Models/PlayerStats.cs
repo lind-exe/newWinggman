@@ -43,8 +43,9 @@ namespace WinGGman_maui.Models
         public string tallImageUrl { get; set; }
         public string bgImageUrl { get; set; }
         public string portraitImageUrl { get; set; }
-        
-        public string legendColor { get; set; }
+        [JsonPropertyName("legendColor")]
+        public string LegendColor { get; set; }
+        public Color LegendColor2 { get; set; }
         public bool isActive { get; set; }
     }
 

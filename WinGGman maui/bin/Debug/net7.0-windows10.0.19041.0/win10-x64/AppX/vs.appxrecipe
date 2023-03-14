@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-06T16:25:36.708</Modified>
+      <Modified>2023-03-14T21:30:15.077</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-06T16:25:36.462</Modified>
+      <Modified>2023-03-14T21:30:14.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WinGGman maui.runtimeconfig.json">
       <PackagePath>WinGGman maui.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-01T14:54:33.343</Modified>
+      <Modified>2023-03-14T19:33:07.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WinGGman maui.dll">
       <PackagePath>WinGGman maui.dll</PackagePath>
-      <Modified>2023-03-06T16:25:35.820</Modified>
+      <Modified>2023-03-14T21:30:14.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WinGGman maui.exe</PackagePath>
-      <Modified>2023-03-06T16:25:35.825</Modified>
+      <Modified>2023-03-14T21:30:14.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -924,7 +924,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\WinGGman maui.deps.json">
       <PackagePath>WinGGman maui.deps.json</PackagePath>
-      <Modified>2023-03-06T16:25:36.628</Modified>
+      <Modified>2023-03-14T21:30:14.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -944,31 +944,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-03-01T10:05:06.780</Modified>
+      <Modified>2023-03-14T19:30:26.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-03-01T10:05:06.791</Modified>
+      <Modified>2023-03-14T19:30:26.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-03-01T10:05:06.808</Modified>
+      <Modified>2023-03-14T19:30:26.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-03-01T10:05:06.830</Modified>
+      <Modified>2023-03-14T19:30:26.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-03-01T10:05:06.921</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-ExtraLight.otf">
-      <PackagePath>Apex Mk3-ExtraLight.otf</PackagePath>
-      <Modified>2019-02-28T18:40:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-Medium.otf">
-      <PackagePath>Apex Mk3-Medium.otf</PackagePath>
-      <Modified>2019-02-28T18:40:06.000</Modified>
+      <Modified>2023-03-14T19:30:26.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexbold.otf">
       <PackagePath>apexbold.otf</PackagePath>
@@ -992,211 +984,231 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-03-06T16:07:49.645</Modified>
+      <Modified>2023-03-14T21:29:48.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.844</Modified>
+      <Modified>2023-03-14T21:29:48.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.855</Modified>
+      <Modified>2023-03-14T21:29:48.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.872</Modified>
+      <Modified>2023-03-14T21:29:48.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.899</Modified>
+      <Modified>2023-03-14T21:29:48.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.991</Modified>
+      <Modified>2023-03-14T21:29:48.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.691</Modified>
+      <Modified>2023-03-14T21:29:48.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.693</Modified>
+      <Modified>2023-03-14T21:29:48.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.702</Modified>
+      <Modified>2023-03-14T21:29:48.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.694</Modified>
+      <Modified>2023-03-14T21:29:48.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.695</Modified>
+      <Modified>2023-03-14T21:29:48.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.680</Modified>
+      <Modified>2023-03-14T21:29:48.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.681</Modified>
+      <Modified>2023-03-14T21:29:48.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.690</Modified>
+      <Modified>2023-03-14T21:29:48.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.682</Modified>
+      <Modified>2023-03-14T21:29:48.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.684</Modified>
+      <Modified>2023-03-14T21:29:48.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.658</Modified>
+      <Modified>2023-03-14T21:29:48.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.659</Modified>
+      <Modified>2023-03-14T21:29:48.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.661</Modified>
+      <Modified>2023-03-14T21:29:48.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.663</Modified>
+      <Modified>2023-03-14T21:29:48.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.667</Modified>
+      <Modified>2023-03-14T21:29:48.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.668</Modified>
+      <Modified>2023-03-14T21:29:48.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.670</Modified>
+      <Modified>2023-03-14T21:29:48.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.679</Modified>
+      <Modified>2023-03-14T21:29:48.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.671</Modified>
+      <Modified>2023-03-14T21:29:48.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.672</Modified>
+      <Modified>2023-03-14T21:29:48.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.732</Modified>
+      <Modified>2023-03-14T21:29:48.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.736</Modified>
+      <Modified>2023-03-14T21:29:48.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.741</Modified>
+      <Modified>2023-03-14T21:29:48.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.748</Modified>
+      <Modified>2023-03-14T21:29:48.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.773</Modified>
+      <Modified>2023-03-14T21:29:48.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.714</Modified>
+      <Modified>2023-03-14T21:29:48.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.716</Modified>
+      <Modified>2023-03-14T21:29:48.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.719</Modified>
+      <Modified>2023-03-14T21:29:48.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.722</Modified>
+      <Modified>2023-03-14T21:29:48.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.728</Modified>
+      <Modified>2023-03-14T21:29:48.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.703</Modified>
+      <Modified>2023-03-14T21:29:48.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.705</Modified>
+      <Modified>2023-03-14T21:29:48.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.707</Modified>
+      <Modified>2023-03-14T21:29:48.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.708</Modified>
+      <Modified>2023-03-14T21:29:48.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.713</Modified>
+      <Modified>2023-03-14T21:29:48.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.776</Modified>
+      <Modified>2023-03-14T21:29:48.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.781</Modified>
+      <Modified>2023-03-14T21:29:48.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.788</Modified>
+      <Modified>2023-03-14T21:29:48.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.798</Modified>
+      <Modified>2023-03-14T21:29:48.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.835</Modified>
+      <Modified>2023-03-14T21:29:48.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bgimage.scale-100.jpg">
       <PackagePath>bgimage.scale-100.jpg</PackagePath>
       <Modified>2023-03-06T16:05:35.722</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\catalyst.scale-100.png">
+      <PackagePath>catalyst.scale-100.png</PackagePath>
+      <Modified>2023-03-14T21:25:13.819</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.751</Modified>
+      <Modified>2023-03-14T21:29:48.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.758</Modified>
+      <Modified>2023-03-14T21:29:48.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.766</Modified>
+      <Modified>2023-03-14T21:29:48.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.780</Modified>
+      <Modified>2023-03-14T21:29:48.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-03-06T16:07:49.812</Modified>
+      <Modified>2023-03-14T21:29:48.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leftbanner.scale-100.png">
+      <PackagePath>leftbanner.scale-100.png</PackagePath>
+      <Modified>2023-03-08T15:05:25.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\middlebanner.scale-100.png">
+      <PackagePath>middlebanner.scale-100.png</PackagePath>
+      <Modified>2023-03-08T15:02:55.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rightbanner.scale-100.png">
+      <PackagePath>rightbanner.scale-100.png</PackagePath>
+      <Modified>2023-03-08T15:03:32.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\vantage.scale-100.png">
+      <PackagePath>vantage.scale-100.png</PackagePath>
+      <Modified>2023-03-14T21:29:15.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\winggmanlarge.scale-100.png">
       <PackagePath>winggmanlarge.scale-100.png</PackagePath>

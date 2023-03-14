@@ -721,12 +721,6 @@
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-ExtraLight.otf">
-      <PackagePath>Apex Mk3-ExtraLight.otf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Apex Mk3-Medium.otf">
-      <PackagePath>Apex Mk3-Medium.otf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\apexbold.otf">
       <PackagePath>apexbold.otf</PackagePath>
     </AppxPackagedFile>
@@ -883,6 +877,9 @@
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bgimage.scale-100.jpg">
       <PackagePath>bgimage.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\catalyst.scale-100.png">
+      <PackagePath>catalyst.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -897,6 +894,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leftbanner.scale-100.png">
+      <PackagePath>leftbanner.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\middlebanner.scale-100.png">
+      <PackagePath>middlebanner.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rightbanner.scale-100.png">
+      <PackagePath>rightbanner.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\vantage.scale-100.png">
+      <PackagePath>vantage.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\winggmanlarge.scale-100.png">
       <PackagePath>winggmanlarge.scale-100.png</PackagePath>

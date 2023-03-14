@@ -2,33 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.LegendDetailPage"
+             BackgroundImageSource="bgimage.jpg"
              
              Title="LegendDetailPage">
 
-    <Grid>
+    <FlexLayout Direction="Column">
 
-        <Image Aspect="AspectFill" Source="bgimage.jpg"/>
 
-        <VerticalStackLayout>
 
-            <Image Source="{Binding Metadata.bgImageUrl}"
-               HeightRequest="400"
-               />
-            <Label Text="{Binding Metadata.name}"
-               TextColor="{Binding Metadata.legendColor}"
-               HorizontalTextAlignment="Start"
-               HorizontalOptions="Center"
-               FontFamily="ApexBold"
-               FontSize="Header"
-               />
-            <Grid  HorizontalOptions="Center"
-               RowDefinitions="400"
-               ColumnDefinitions="350, 350, 350"
-               Padding="50"
-               ColumnSpacing="100">
 
-                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="0" VerticalOptions="Fill">
-                    <StackLayout>
+
+
+
+        <FlexLayout FlexLayout.Grow="1" Direction="Row">
+            <VerticalStackLayout BackgroundColor="Black" Opacity="0.3"  FlexLayout.Basis="100" FlexLayout.Grow="0.08">
+
+            </VerticalStackLayout>
+            <VerticalStackLayout BackgroundColor="Transparent" FlexLayout.Grow="1">
+                <Grid ColumnDefinitions="*, *" HorizontalOptions="Center" Padding="50">
+                    <Border Stroke="transparent" BackgroundColor="Black"  Opacity="0.9" StrokeThickness="4" WidthRequest="350" HeightRequest="780" StrokeShape="RoundRectangle 40,2,2,40">
+                        <Border.Shadow>
+                            <Shadow Brush="Black"
+                                    Offset="10,10"
+                                    Opacity=".8">
+
+                            </Shadow>
+
+
+                        </Border.Shadow>
+                        <Image Source="{Binding Metadata.tallImageUrl}" Aspect="AspectFill" Grid.Column="0"></Image>
+                    </Border>
+
+
+                        <!--<Label Text="{Binding Metadata.name, StringFormat='  Stats for {0}'}" TextColor="{Binding Metadata.LegendColor2}" FontSize="56" FontFamily="apexbold"  Grid.Column="1"/>-->
+
+                    <StackLayout Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center">
                         <Label Text="{Binding Stats.matchesPlayed.displayName}"
                             HorizontalOptions="Center"
                             FontSize="32"
@@ -45,75 +53,95 @@
                             Padding="10"
                             FontAttributes="Bold"
                             HorizontalOptions="Center"/>
-                    </StackLayout>
-                </Frame>
 
-                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="1" VerticalOptions="Fill">
-                    <StackLayout>
-                        <Label Text="{Binding Stats.kills.displayName}"
+
+                        <StackLayout Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="{Binding Stats.kills.displayName}"
                         HorizontalOptions="Center"
                         FontSize="32"
                         FontAttributes="Bold" />
-                        <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
-                        <Label x:Name="killsValue"
+                            <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
+                            <Label x:Name="killsValue"
                            Text="{Binding Stats.kills.value}"
                            FontSize="40"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label x:Name="KDR" 
+                            <Label x:Name="KDR" 
                            Text="{Binding Stats.killsPerMatch.value, StringFormat='KDR: {0}'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label 
+                            <Label 
                            Text="{Binding Stats.kills.percentile, StringFormat='Kills percentile : {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label 
+                            <Label 
                            Text="{Binding Stats.killsPerMatch.percentile, StringFormat='KDR percentile: {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                    </StackLayout>
 
-                </Frame>
-
-                <Frame BorderColor="Gray" CornerRadius="1" Padding="1" Grid.Column="2" VerticalOptions="Fill">
-                    <StackLayout>
-                        <Label Text="{Binding Stats.damage.displayName}"
+                            <StackLayout>
+                                <Label Text="{Binding Stats.damage.displayName}"
                            HorizontalOptions="Center"
                            FontSize="32"
                            FontAttributes="Bold"/>
-                        <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
-                        <Label Text="{Binding Stats.damage.value}"
+                                <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
+                                <Label Text="{Binding Stats.damage.value}"
                            BackgroundColor="{Binding Metadata.legendColor}"
                            FontSize="40"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
+                                <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
+                                <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
                            FontSize="25"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
-                        <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
+                                <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
                            FontSize="20"
                            Padding="10"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
                     </StackLayout>
-                </Frame>
-            </Grid>
-        </VerticalStackLayout>
-    </Grid>
+
+
+
+
+
+
+                </Grid>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout BackgroundColor="Black" Opacity="0.3" FlexLayout.Basis="100" FlexLayout.Grow="0.08">
+
+
+            </VerticalStackLayout>
+
+        </FlexLayout>
+
+
+
+
+
+    </FlexLayout>
+
+
+
+
+
+
+
 </ContentPage>

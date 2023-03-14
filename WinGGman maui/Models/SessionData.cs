@@ -10,5 +10,10 @@ namespace WinGGman_maui.Models
     {
         public static string UserName { get; set; }
         public static string Platform { get; set; }
+
+       
+
+
+
     }
 }
