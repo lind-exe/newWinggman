@@ -16,6 +16,25 @@ namespace WinGGman_maui.ViewModels
         [ObservableProperty]
         PlayerStats player;
 
+
+        [ObservableProperty]
+        CurrentUser currentUser;
+
+        [ObservableProperty]
+        string userName;
+
+        [ObservableProperty]
+        string platform;
+        
+
+
+        public PlayerStatsPageViewModel()
+        {
+            UserName = CurrentUser.Instance.UserName;
+            Platform = CurrentUser.Instance.Platform;
+        }
+
+
         public async Task GetData(string uri)
         {
             string apiKey = "1b0e4531-fafa-459f-95a1-b892bc373737";
@@ -32,9 +51,9 @@ namespace WinGGman_maui.ViewModels
                 for (int i = 0; i < Player.Data.Count(); i++)
                 {
                     // first legend in the list gets white color? 
-                    Player.Data[i].Metadata.LegendColor2 = Color.FromArgb(Player.Data[i].Metadata.LegendColor);
+                    Player.Data[i].Metadata.LegendColor2 = Color.FromArgb(Player.Data[i].Metadata.LegendColor);  //sets colors for each legend
 
-                    if (Player.Data[i].Metadata.name == "Catalyst")
+                    if (Player.Data[i].Metadata.name == "Catalyst")             // adds missing images
                     {
                         Player.Data[i].Metadata.tallImageUrl = "catalyst.png";
                     }
@@ -47,5 +66,6 @@ namespace WinGGman_maui.ViewModels
             }
 
         }
+
     }
 }

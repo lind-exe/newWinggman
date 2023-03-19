@@ -19,9 +19,6 @@
         <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.LegendColor">
             <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.legendColor"/>
         </member>
-        <member name="P:WinGGman_maui.ViewModels.LegedDetailPageViewModel.CurrentUser">
-            <inheritdoc cref="F:WinGGman_maui.ViewModels.LegedDetailPageViewModel.currentUser"/>
-        </member>
         <member name="P:WinGGman_maui.ViewModels.PlayerStatsPageViewModel.Player">
             <inheritdoc cref="F:WinGGman_maui.ViewModels.PlayerStatsPageViewModel.player"/>
         </member>

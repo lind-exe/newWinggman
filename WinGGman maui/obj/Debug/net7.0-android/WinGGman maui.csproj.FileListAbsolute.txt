@@ -1146,3 +1146,5 @@ C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\ne
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-android\resizetizer\r\drawable\catalyst.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-android\resizetizer\r\drawable\vantage.png

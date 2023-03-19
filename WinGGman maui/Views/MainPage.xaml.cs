@@ -5,6 +5,7 @@ namespace WinGGman_maui;
 
 public partial class MainPage : ContentPage
 {
+    
     public MainPage()
 	{
 		InitializeComponent();
@@ -12,10 +13,13 @@ public partial class MainPage : ContentPage
 
     public async void GetDataOnMainPageButtonClicked(object sender, EventArgs e)
     {
+        
+        
+        
 
-		CurrentUser.UserName = userName.Text;
-		CurrentUser.Platform = platform.Text;
-		//SessionData.Player = PlayerStatsPageViewModel.GetData($"{SessionData.Platform}/{SessionData.UserName}/segments/legend");
+		CurrentUser.Instance.UserName = userName.Text;
+		CurrentUser.Instance.Platform = platform.Text;
+		
 
 
 

@@ -308,3 +308,5 @@ C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\ne
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\WinGGman maui.pdb
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\WinGGman maui.genruntimeconfig.cache
 C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\WinGGman maui.dll
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\catalyst.png
+C:\Users\jojje\Desktop\YH\ewr\newwinggman\newWinggman\WinGGman maui\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\vantage.png

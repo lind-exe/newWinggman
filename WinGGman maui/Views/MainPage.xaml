@@ -14,7 +14,7 @@
         <Image
                 
                 Source="winggmanlarge.png"
-                HeightRequest="400"
+                HeightRequest="700"
                 HorizontalOptions="Center" />
 
         <Entry
@@ -39,16 +39,23 @@
                  Text="origin"
                  />
 
+        
+            <Button
+                
+                BackgroundColor="#854642"
+                     BorderColor="Black"
+                    x:Name="RetrieveDataFromApi"
+                    Text="View my stats"
+                        TextColor="Black"
+                    FontFamily="apexbold"
+                    BorderWidth="2"
+                    FontSize="20"
+                    Clicked="GetDataOnMainPageButtonClicked"
+                    HorizontalOptions="Center" />
+        
+        
 
-        <Button
-                Style="{DynamicResource buttonStyle}"
-                x:Name="RetrieveDataFromApi"
-                Text="View my stats"
-                FontFamily="Expressway"
-                FontAttributes="Bold"
-                Clicked="GetDataOnMainPageButtonClicked"
-                HorizontalOptions="Center" />
-
+           
     </VerticalStackLayout>
 </ContentPage>
 

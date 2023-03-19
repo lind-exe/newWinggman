@@ -3,51 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.PlayerStatsPage"
              BackgroundImageSource="bgimage.jpg"
-             Title="PlayerStatsPage">
+             Title="{Binding UserName}"
+             >
     <FlexLayout Direction="Column">
 
         <FlexLayout FlexLayout.Grow="1" Direction="Row">
             <VerticalStackLayout BackgroundColor="Black" Opacity="0.3"  FlexLayout.Basis="100">
 
 
+
             </VerticalStackLayout>
-                <ScrollView>
-            <VerticalStackLayout BackgroundColor="Transparent" FlexLayout.Grow="1">
-                    <ListView
+
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand">
+
+                <VerticalStackLayout BackgroundColor="Transparent" FlexLayout.Grow="1">
+
+
+
+
+                    <ListView 
                         ItemsSource="{Binding Player.Data}"
-                        ItemSelected="OnListViewItemSelected">
+                        ItemSelected="OnListViewItemSelected"
+                        >
 
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
                                     <Grid Padding="10"
-                                          RowDefinitions="Auto, *"
-                                          ColumnDefinitions="200, 250, 250"
-                                          ColumnSpacing="20">
+                                          RowDefinitions="auto, *"
+                                          ColumnDefinitions="250, 250, 250"
+                                          ColumnSpacing="20"
+                                          HorizontalOptions="Center"
+                                          VerticalOptions="Center">
 
                                         <Border StrokeThickness="4"
                                                 StrokeShape="Rectangle "
                                                 HorizontalOptions="Center"
                                                 >
                                             <Border.Stroke>
-                                                  <LinearGradientBrush EndPoint="0,1">
-                                                      <GradientStop Color="AntiqueWhite"
+                                                <LinearGradientBrush EndPoint="0,1">
+                                                    <GradientStop Color="AntiqueWhite"
                                                                     Offset="0.1" />
-                                                      <GradientStop Color="DarkRed"
+                                                    <GradientStop Color="DarkRed"
                                                                     Offset="1.0" />
-                                                  </LinearGradientBrush>
+                                                </LinearGradientBrush>
                                             </Border.Stroke>
                                             <Image HeightRequest="200"
                                                Grid.Column="0"
                                                Source="{Binding Metadata.portraitImageUrl}"/>
                                         </Border>
-                                          
-                                        
+
+
                                         <Label Text="{Binding Metadata.name}"
                                                TextColor="{Binding Metadata.LegendColor2}"
                                                FontFamily="ApexBold"
                                                FontSize="45"
-                                               Grid.Column="1"/>    
+                                               Grid.Column="1"/>
 
                                     </Grid>
                                 </ViewCell>
@@ -55,8 +67,8 @@
                         </ListView.ItemTemplate>
                     </ListView>
 
-            </VerticalStackLayout>
-                </ScrollView>
+                </VerticalStackLayout>
+            </ScrollView>
             <VerticalStackLayout BackgroundColor="Black" Opacity="0.3" FlexLayout.Basis="100">
 
 

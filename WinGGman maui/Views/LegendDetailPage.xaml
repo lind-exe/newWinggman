@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WinGGman_maui.Views.LegendDetailPage"
              BackgroundImageSource="bgimage.jpg"
-             
-             Title="LegendDetailPage">
+             Title="{Binding Metadata.name}">
 
     <FlexLayout Direction="Column">
 
@@ -19,8 +18,10 @@
 
             </VerticalStackLayout>
             <VerticalStackLayout BackgroundColor="Transparent" FlexLayout.Grow="1">
+
+
                 <Grid ColumnDefinitions="*, *" HorizontalOptions="Center" Padding="50">
-                    <Border Stroke="transparent" BackgroundColor="Black"  Opacity="0.9" StrokeThickness="4" WidthRequest="350" HeightRequest="780" StrokeShape="RoundRectangle 40,2,2,40">
+                    <Border Stroke="{Binding Metadata.LegendColor2}" Background="black" Opacity="0.9" StrokeThickness="4" WidthRequest="350" HeightRequest="780" StrokeShape="RoundRectangle 40,2,2,40">
                         <Border.Shadow>
                             <Shadow Brush="Black"
                                     Offset="10,10"
@@ -28,93 +29,87 @@
 
                             </Shadow>
 
-
                         </Border.Shadow>
-                        <Image Source="{Binding Metadata.tallImageUrl}" Aspect="AspectFill" Grid.Column="0"></Image>
+                        <Image Source="{Binding Metadata.tallImageUrl}" Aspect="AspectFill" Grid.Column="0" Grid.Row="1"></Image>
                     </Border>
 
 
-                        <!--<Label Text="{Binding Metadata.name, StringFormat='  Stats for {0}'}" TextColor="{Binding Metadata.LegendColor2}" FontSize="56" FontFamily="apexbold"  Grid.Column="1"/>-->
 
-                    <StackLayout Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center">
-                        <Label Text="{Binding Stats.matchesPlayed.displayName}"
-                            HorizontalOptions="Center"
+                    <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Margin="20" Spacing="10">
+                        
+
+
+                        <Label Text="Apex kills"
+                                   HorizontalOptions="Center"
+                                   FontSize="32"
+                                   FontFamily="apex" TextColor="{Binding Metadata.LegendColor2}" CharacterSpacing="0.6"/>
+                        <BoxView Color="{Binding Metadata.LegendColor2}" HeightRequest="4" WidthRequest="259"/>
+                        <Label x:Name="killsValue"
+                           Text="{Binding Stats.kills.value}"
+                           FontSize="40"
+                           
+                           FontFamily="apexbold" 
+                           HorizontalOptions="Center"/>
+                        <Label x:Name="KDR" 
+                           Text="{Binding Stats.killsPerMatch.value, StringFormat='KDR: {0}'}"
+                           FontSize="25"
+                           
+                           FontFamily="apexlight"
+                           HorizontalOptions="Center"/>
+                        <Label 
+                           Text="{Binding Stats.kills.percentile, StringFormat='rank : {0}%'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontFamily="apexlight"
+                           HorizontalOptions="Center"/>
+                        <Label 
+                           Text="{Binding Stats.killsPerMatch.percentile, StringFormat='kdr rank: {0}%'}"
+                           FontSize="25"
+                           Padding="10"
+                           FontFamily="apexlight"
+                           HorizontalOptions="Center"/>
+
+
+                        <Label Text="Apex damage"
+                                       HorizontalOptions="Center"
+                                       FontSize="32"
+                                       FontFamily="apex" TextColor="{Binding Metadata.LegendColor2}" CharacterSpacing="0.6"/>
+                        <BoxView HeightRequest="4" Color="{Binding Metadata.LegendColor2}" MaximumWidthRequest="310"></BoxView>
+                        <Label Text="{Binding Stats.damage.value}"
+                           BackgroundColor="{Binding Metadata.legendColor}"
+                           FontSize="40"
+                           
+                           FontFamily="apexbold"
+                           HorizontalOptions="Center"/>
+                        <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='avg damage: {0}'}"
+                                       FontSize="25"
+                                       Padding="10"
+                                       FontFamily="apexlight"
+                                       HorizontalOptions="Center"/>
+                        <Label Text="{Binding Stats.damage.percentile, StringFormat='Rank: {0}%'}"
+                                       FontSize="25"
+                                       Padding="10"
+                                       FontFamily="apexlight"
+                                       HorizontalOptions="Center"/>
+                        <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='avg dmg rank: {0}%'}"
+                                       FontSize="20"
+                                       Padding="10"
+                                       FontFamily="apexlight"
+                                       HorizontalOptions="Center"/>
+
+                        <Label Text="Apex games played"
+                            
                             FontSize="32"
-                            FontAttributes="Bold" />
-                        <BoxView Color="DarkRed" HeightRequest="4" MaximumWidthRequest="320"/>
+                            TextColor="{Binding Metadata.LegendColor2}"
+                            FontFamily="apex" CharacterSpacing="0.6"/>
+                        <BoxView Color="{Binding Metadata.LegendColor2}" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="310" />
                         <Label x:Name="matchesPlayedValue"
                             Text="{Binding Stats.matchesPlayed.value}"
                             FontSize="40"
-                            Padding="10"
-                            FontAttributes="Bold"
+                            
+                            
+                            FontFamily="apexbold"
                             HorizontalOptions="Center"/>
-                        <Label Text="{Binding Stats.matchesPlayed.percentile, StringFormat='Matches played percentile: {0}%'}"
-                            FontSize="20"
-                            Padding="10"
-                            FontAttributes="Bold"
-                            HorizontalOptions="Center"/>
-
-
-                        <StackLayout Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center">
-                            <Label Text="{Binding Stats.kills.displayName}"
-                        HorizontalOptions="Center"
-                        FontSize="32"
-                        FontAttributes="Bold" />
-                            <BoxView Color="DarkRed" HeightRequest="4" HorizontalOptions="Fill" MaximumWidthRequest="320"/>
-                            <Label x:Name="killsValue"
-                           Text="{Binding Stats.kills.value}"
-                           FontSize="40"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                            <Label x:Name="KDR" 
-                           Text="{Binding Stats.killsPerMatch.value, StringFormat='KDR: {0}'}"
-                           FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                            <Label 
-                           Text="{Binding Stats.kills.percentile, StringFormat='Kills percentile : {0}%'}"
-                           FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                            <Label 
-                           Text="{Binding Stats.killsPerMatch.percentile, StringFormat='KDR percentile: {0}%'}"
-                           FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-
-                            <StackLayout>
-                                <Label Text="{Binding Stats.damage.displayName}"
-                           HorizontalOptions="Center"
-                           FontSize="32"
-                           FontAttributes="Bold"/>
-                                <BoxView HeightRequest="4" Color="DarkRed" MaximumWidthRequest="320"></BoxView>
-                                <Label Text="{Binding Stats.damage.value}"
-                           BackgroundColor="{Binding Metadata.legendColor}"
-                           FontSize="40"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                                <Label Text="{Binding Stats.damagePerMatch.value, StringFormat='DMG per match: {0}'}"
-                           FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                                <Label Text="{Binding Stats.damage.percentile, StringFormat='DMG percentile: {0}%'}"
-                           FontSize="25"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                                <Label Text="{Binding Stats.damagePerMatch.percentile, StringFormat='DMG Per match percentile: {0}%'}"
-                           FontSize="20"
-                           Padding="10"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
-                            </StackLayout>
-                        </StackLayout>
                     </StackLayout>
 
 
@@ -123,6 +118,7 @@
 
 
                 </Grid>
+
 
             </VerticalStackLayout>
             <VerticalStackLayout BackgroundColor="Black" Opacity="0.3" FlexLayout.Basis="100" FlexLayout.Grow="0.08">

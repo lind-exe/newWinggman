@@ -8,33 +8,31 @@ namespace WinGGman_maui.Models
 {
     public sealed class CurrentUser
     {
-        public static string UserName { get; set; }
-        public static string Platform { get; set; }
+        private static readonly Lazy<CurrentUser> lazy = new Lazy<CurrentUser>(() => new CurrentUser());
+
+        public static CurrentUser Instance { get { return lazy.Value; } }
         
+        public string UserName { get; set; }
+        public string Platform { get; set; }
 
-
-
-        private static CurrentUser instance = null;
-        private static readonly object padlock = new object();
-
-        CurrentUser()
+        private CurrentUser() 
         {
             
         }
+        
 
-        public static CurrentUser Instance
-        {
-            get
-            {
-                lock (padlock)
-                {
-                    if (instance == null) 
-                    {
-                        instance = new CurrentUser();   
-                    }
-                    return instance;
-                }
-            }
-        }
+
+        //public static CurrentUser GetUserNamePlatform()
+        //{
+        //    return _instance;
+
+        //}
+
+        //public void SetUserNamePlatform(string userName, string platform)
+        //{
+        //    UserName = userName;
+        //    Platform = platform;
+
+        //}
     }
 }

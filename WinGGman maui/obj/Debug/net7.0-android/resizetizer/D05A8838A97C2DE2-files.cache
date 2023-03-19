@@ -1,7 +1,9 @@
 ﻿obj\Debug\net7.0-android\resizetizer\r\drawable\bgimage.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\catalyst.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\leftbanner.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\middlebanner.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\rightbanner.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\vantage.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\winggmanlarge.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png

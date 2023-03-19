@@ -28,11 +28,14 @@ namespace WinGGman_maui.ViewModels
 
         
 
+        
+
+
 
 
         public LegedDetailPageViewModel()
-        {            
-              
+        {
+            
         }
         
     }
